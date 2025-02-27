@@ -199,7 +199,7 @@ body {
 }
 
 html {
-  font-family: 'Helvetica', 'Georgia', 'Ubuntu', sans-serif;
+  font-family: 'ABeeZee', 'Helvetica', sans-serif;
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
@@ -297,6 +297,7 @@ input[type="submit"] {
   padding: 0.5em 1em;
   font-size: 0.8rem;
   cursor: pointer;
+  font-family: 'ABeeZee', 'Helvetica', sans-serif;
 }
 
 /* ===== STATE STYLES ======= */
