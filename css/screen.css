@@ -207,8 +207,8 @@ label {
 form {
   background-color: #d6dbde;
   padding: 1.6em;
-  border-radius: 0.5em;
-  box-shadow: 0 0.25em 0.5em rgb(189, 189, 189);
+  border-radius: 0.3em;
+  box-shadow: 0 0.25em 0.5em rgb(93, 93, 93);
 }
 
 form h1 {
@@ -216,6 +216,44 @@ form h1 {
   margin-bottom: 0.5em;
   color: #ffffff;
   text-shadow: 0px 2px 3px rgb(93, 93, 93);
+}
+
+form p {
+  font-size: 1.0em;
+  color: rgb(57, 57, 57);
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+form ol {
+  list-style: none;
+}
+
+form li {
+  margin-bottom: 0.5em;
+}
+
+#input-email label {
+  display: block;
+  font-size: 0.8em;
+  margin-right: 0.5em;
+  font-weight: bold;
+}
+
+#input-age-verification label {
+  margin: 0.5em;
+  font-size: 0.6em;
+  color: #666;
+}
+
+#input-email {
+  display: flex;
+  align-items: center;
+}
+
+#input-age-verification {
+  display: flex;
+  align-items: center;
 }
 
 /* ===== STATE STYLES ======= */
