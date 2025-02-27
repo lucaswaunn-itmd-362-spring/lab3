@@ -192,7 +192,7 @@ img, audio, video {
 */
 
 html {
-  font-family: 'Lilita One', 'Georgia', 'Ubuntu', sans-serif;
+  font-family: 'Helvetica', 'Georgia', 'Ubuntu', sans-serif;
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
@@ -204,7 +204,19 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+form {
+  background-color: #d6dbde;
+  padding: 1.6em;
+  border-radius: 0.5em;
+  box-shadow: 0 0.25em 0.5em rgb(189, 189, 189);
+}
 
+form h1 {
+  font-size: 1.6em;
+  margin-bottom: 0.5em;
+  color: #ffffff;
+  text-shadow: 0px 2px 3px rgb(93, 93, 93);
+}
 
 /* ===== STATE STYLES ======= */
 
